@@ -1,0 +1,13 @@
+.location-list {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  row-gap: .1em;
+}
+
+.location-list > div {
+  width: 100%;
+}
+
+.location-list > div > button {
+  width: 100%;
+}
